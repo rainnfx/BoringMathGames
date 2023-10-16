@@ -30,15 +30,37 @@ nav {
   padding: 10px;
   text-align: center;
 }
-nav a {
-  text-decoration: none;
-  color: #333;
-  margin: 10px;
-  padding: 5px 10px;
-  border: 1px solid #333;
-  border-radius: 5px;
+
+
+.section {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
 }
-nav a:hover {
-  background-color: #333;
-  color: #fff;
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.game {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.gameLink {
+  color: #004d65;
+}
+.contents {
+
+    border-top: 1px solid #ccc;
+    padding-to
+
+    display: flex;
+    justify-content: space-between;
 }
