@@ -12,6 +12,6 @@ body {
 .header {
   font-size: 1.5rem;
   padding-left, padding-right: 1rem;
-  margin-left: -1rem;
+
   border: 3px solid #0f0f0f;
 }
