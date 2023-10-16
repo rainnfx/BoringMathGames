@@ -59,7 +59,7 @@ nav {
 .contents {
 
     border-top: 1px solid #ccc;
-    padding-to
+    padding-top: 0.5rem;
 
     display: flex;
     justify-content: space-between;
