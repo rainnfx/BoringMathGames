@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 body {
@@ -44,17 +45,17 @@ header {
   margin-right: 5px;
 }
 
-
 .gameLink:hover {
   color: #03698f;
-  
+}
 
-}.gameLink {
+.gameLink {
   position: relative;
   color: #004d65;
   text-decoration: none;
 }
-.gameLink::after{
+
+.gameLink::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -73,15 +74,25 @@ header {
 }
 
 .game {
-
   border-top: 1px solid #ccc;
-  padding-bottom:   0.5rem;
-  padding-top:  0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   justify-content: space-between;
   display: flex;
-  
+}
+.credit{
+  position: absolute;
+  align-items: right;
+  justify-content: right;
+  text-align: right;
+  bottom: 50% - 12px;
+  width: 100%;
+  right: 3rem;
 }
 footer {
+
+  position: relative;
+  margin-top: auto;
   color: #fff;
   background-color: #111;
   display: flex;
@@ -90,19 +101,4 @@ footer {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 7rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
-
-.credit{
-  position: absolute;
-  align-items: right;
-  justify-content: right;
-  text-align: right;
-  align-items: right;
-  width: 100%;
-  right: 3rem;
-}
-
